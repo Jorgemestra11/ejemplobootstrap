@@ -1,0 +1,23 @@
+/* Estilo para el encabezado */
+.page-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 30px;
+  }
+  /* Estilo para los productos */
+  .product-card {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    transition: box-shadow 0.3s ease;
+  }
+  .product-card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  .product-card .card-body {
+    padding: 20px;
+  }
